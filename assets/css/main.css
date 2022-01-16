@@ -80,8 +80,8 @@ input, select, textarea {
 	body {
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
-		font-weight: 300;
+		font-size: 22em;
+		font-weight: 400;
 		line-height: 1.75em;
 		color: rgb(46, 46, 46);
 	}
@@ -134,7 +134,18 @@ input, select, textarea {
 			}
 
 	h3 {
-		font-size: 1.5em;
+		font-size: 1.75em;
+		padding: 10rem 0rem 0rem;
+	}
+
+	h4 {
+		font-size: 1.0em;
+		padding: 1rem 0rem 0rem;
+	}
+
+	h5 {
+		font-size: 1.0em;
+		padding: 1rem 0rem 0rem;
 	}
 
 	header {
@@ -142,7 +153,7 @@ input, select, textarea {
 	}
 
 		header > p {
-			margin: 1em 0 0 0;
+			margin: 2em 0 0 0;
 		}
 
 	footer {
@@ -170,7 +181,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #E27689;
+			color: #000000;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -1752,7 +1763,7 @@ input, select, textarea {
 		.image.avatar48 {
 			width: 152px;
 			height: 152px;
-			background: #f00;
+			background: #222629;
 		}
 
 			.image.avatar48 img {
@@ -2165,7 +2176,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #000000;
 					}
 
 /* Footer */
@@ -2626,4 +2637,8 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
+	}
+	.column {    
+		display: inline-block;
+		width:33%;
 	}
