@@ -1758,6 +1758,8 @@ input, select, textarea {
 		.image img {
 			border-radius: 5px;
 			display: block;
+			width: 100%;
+  			height: auto;
 		}
 
 		.image.avatar48 {
