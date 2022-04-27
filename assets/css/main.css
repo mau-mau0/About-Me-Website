@@ -2131,6 +2131,22 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
+			
+			@media screen and (max-width: 2150px) {
+				left: 46px;
+			}
+			
+			@media screen and (max-width: 1880px) {
+				left: 7px;
+			}
+			
+			@media screen and (max-width: 1320px) {
+				left: 20px;
+			}
+			
+			@media screen and (max-width: 1000px) {
+				left: 10px;
+			}
 		}
 
 	#nav ul {
